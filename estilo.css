@@ -1,0 +1,91 @@
+/* DOCUMENTO CSS */
+*{
+	margin: 3px;
+	padding: 3px;
+	box-sizing: border-box;
+}
+body{
+	background: linear-gradient(45deg, #ffcc88 0, #ffd17e 4.55%, #ffd576 9.09%, #ffd96e 13.64%, #ffdb68 18.18%, #f0dd62 22.73%, #dcde5f 27.27%, #c6de5d 31.82%, #aedd5d 36.36%, #92db5f 40.91%, #71d863 45.45%, #42d469 50%, #00cf71 54.55%, #00cb7d 59.09%, #00c78a 63.64%, #00c39a 68.18%, #00bfaa 72.73%, #00bbbc 77.27%, #00b8ce 81.82%, #00b6e0 86.36%, #00b3f1 90.91%, #00b1ff 95.45%, #00afff 100%);
+	background-attachment: fixed;
+	font-family: 'Segoe UI', sans-serif;
+	height: 100%
+}
+header{
+	background-color: #16A085;
+	text-align: center;
+	height: 60px;
+	font-family: 'Gill Sans', sans-serif;
+	display: flex;
+	justify-content: center;
+}
+header figure{
+	width: 50px;
+}
+header figure img{
+	width: 100%;
+}
+header h1{
+	margin: 7px 0 0 10px;
+}
+main{
+	display: flex;
+	justify-content: center;
+	padding-top: 80px;
+}
+main form{
+	width: 1000px;
+	padding:50px;
+	background: #ffffff77;
+	box-shadow: 0 8px 32px ;
+	backdrop-filter: blur( 13.5px );
+	border-radius: 10px;
+	border: 7px solid #ffffff33;
+}
+main form h2{
+	text-align: center;
+	margin-bottom: 26px;
+	font-size: 33px;
+	color: #322332
+}
+main form h3{
+	font-size: 25px;
+	margin-bottom: 206px;
+}
+main form label{ 
+	color: 322332;
+	font-weight: 700;
+}
+main form input, select{
+	height: 30px;
+	border-radius: 5px;
+	border-color: black;
+	margin: 5px 0 10px 0;
+	font-size: 20px;
+}
+main form textarea{
+	border-radius: 5px;
+	font-size: 20px;
+	margin: 5px & 16px 0;
+}
+main form input:focus, select:focus{
+	background-color: #Fff600;
+}
+main form hr {
+	margin: 1px 0;
+}
+main form input[type=radio]{
+	width: 20px;
+	margin-left: 10px;
+}
+main form .categoria{
+	position: relative;
+	top: -10px;
+}
+main form input[type=submit]{
+	width: 100px;
+	font-weight: 900;
+	height: 50px;
+	cursor: pointer;
+	margin-left: 37%;
+	background-image: linear-gradient(120deg, #dafc79 0%, #96e6al 100%);
+}

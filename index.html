@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang= "pt-br">
+	<head>
+		<title>FORM SOUL BRASIL</title>
+		<meta charset="utf-8"/>
+		<link rel="stylesheet" href="estilo.css">
+	</head>
+<body>
+	<header>
+		<h1>FORMULÁRIOS</h1>
+		<p></p>
+	</header>
+	<main>
+	<form>
+		<h2>Cadastre-se</h2>
+		<p><strong>*DADOS PESSOAIS*</strong></p>
+			<label><strong>Nome completo:</strong></label><br>
+				<input type="text" name="camponome" placeholder="Nome e Sobrenome" required size="20" class="camponome">
+				<br>
+			<label><strong>RG:</strong></label><br>
+				<input type="text" name="camporg" placeholder="00.000.000-0" required maxlength="12" size="20" class="camporg">
+				<br>
+			<label><strong>CPF:</strong></label><br>
+				<input type="text" name="campocpf" placeholder="000.000.000-00" required maxlength="14" size="20" class="campocpf">
+				<br>
+			<label><strong>Data de nascimento:</strong></label><br>
+				<input type="date" name="campodata" required>
+				<br>
+				<hr>
+
+		<p><strong>*DADOS PARA CONTATO*</strong></p>
+			<label><strong>Número de telefone:</strong></label><br>
+				<input type="text" name="campotelefone" placeholder="(DDD) 00000-0000" required maxlength="13" size="20" class="campotelefone">
+				<br>
+			<label><strong>Número de telefone secundário:</strong></label><br>
+				<input type="text" name="campotelefone" placeholder="(DDD) 00000-0000" maxlength="13"size="20" class="campotelefone">
+				<br>
+			<label><strong>E-mail:</strong></label><br>
+				<input type="email" name="campoemail" required>
+				<br>
+
+		<p><strong>*Endereço*</strong></p>
+			<label><strong>Estado:</strong></label><br>
+				<select name="estado" required>
+					<option selected value = "SP">AC</option>
+					<option value="SP">AL</option>
+					<option value="SP">AP</option>
+					<option value="SP">AM</option>
+					<option value="SP">BA</option>
+					<option value="SP">CE</option>
+					<option value="SP">ES</option>
+					<option value="SP">GO</option>
+					<option value="SP">MA</option>
+					<option value="SP">MT</option>
+					<option value="SP">MS</option>
+					<option value="SP">MG</option>
+					<option value="SP">PA</option>
+					<option value="SP">PB</option>
+					<option value="SP">PR</option>
+					<option value="SP">PE</option>
+					<option value="SP">PI</option>
+					<option value="SP">RJ</option>
+					<option value="SP">RN</option>
+					<option value="SP">RS</option>
+					<option value="SP">RO</option>
+					<option value="SP">RR</option>
+					<option value="SP">SC</option>
+					<option value="SP">SP</option>
+					<option value="SP">SE</option>
+					<option value="SP">TO</option>
+				</select><br>
+			<label><strong>Cidade:</strong></label><br>
+				<input type="text" name="campoendereço" required>
+				<br>
+			<label><strong>Bairro:</strong></label><br>
+				<input type="text" name="campoendereço" required>
+				<br>
+			<label><strong>Rua:</strong></label><br>
+				<input type="text" name="campoendereço" required>
+				<br>
+			<label><strong>Número da moradia:</strong></label><br>
+				<input type="text" name="campoendereço" required>
+				<br>
+			<label><strong>CEP:</strong></label><br>
+				<input type="text" name="campoendereço" placeholder="00000-000" required maxlength="9" size="20" class="campoendereço">
+				<br>
+				<hr>
+
+		<p><strong>*DADOS PROFISSIONAIS*</strong></p>
+	<p><strong>Formação</strong></p>
+		<label><strong>Escola de formação</strong></label><br>
+		<input type="text" name="escola" size=40 required><br>
+		<br>
+
+
+			<label><strong>Categoria:</strong></label><br>
+					<input type="radio" name="categoria" value="1">
+			<label class="categoria">Dança</label>
+				<input type="radio" name="categoria" value="2">
+			<label class="categoria">Teatro</label>
+				<input type="radio" name="categoria" value="3">
+			<label class="categoria">Música</label>
+				<input type="radio" name="categoria" value="4">
+			<label class="categoria">Pintura</label>
+				<input type="radio" name="categoria" value="5">
+			<label class="categoria">Circense</label>
+				<input type="radio" name="categoria" value="6">
+			<label class="categoria">Cinema</label>
+				<input type="radio" name="categoria" value="7">
+			<label class="categoria">Escultura</label>
+				<input type="radio" name="categoria" value="8">
+			<label class="categoria">Literatura</label>
+				<input type="radio" name="categoria" value="9">
+		<br>
+		<br>
+
+		<label><strong>Descrição das habilidades:</strong></label><br>
+		<textarea cols="50" rows="5"></textarea><br><br>
+				<hr>
+		<input type="submit" value="ENVIAR">
+		<input type="reset" value="LIMPAR">
+		<br>
+		</form>
+	</main>
+</body>
+
